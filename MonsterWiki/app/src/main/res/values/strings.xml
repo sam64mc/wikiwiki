@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Monster Wiki</string>
+    <string name="monsterName">Monster Name</string>
+    <string name="evolutionImage">evolution image</string>
+    <string name="evolutionLvl" >evolution level</string>
+    <string name="elementType" >element type</string>
 </resources>
