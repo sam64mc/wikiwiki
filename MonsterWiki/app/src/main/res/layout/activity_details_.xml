@@ -40,7 +40,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/magic"
-        tools:layout_editor_absoluteY="110dp"
+        tools:layout_editor_absoluteY="104dp"
         tools:layout_editor_absoluteX="280dp" />
 
     <TextView
