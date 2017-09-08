@@ -5,12 +5,11 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageMonstre"
         android:layout_width="100dp"
         android:layout_height="120dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="30dp"
         android:layout_marginTop="20dp"
         app:srcCompat="@drawable/ic_action_name" />
 
@@ -18,12 +17,12 @@
         android:id="@+id/nomMonstre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/imageView"
+        android:layout_alignTop="@+id/imageMonstre"
         android:layout_marginStart="58dp"
-        android:layout_toEndOf="@+id/imageView"
+        android:layout_toEndOf="@+id/imageMonstre"
         android:text="TextView"
         android:textColor="@android:color/black"
-        android:textSize="22sp" />
+        android:textSize="36sp" />
 
     <TextView
         android:id="@+id/nomElement"
@@ -34,5 +33,5 @@
         android:layout_marginTop="25dp"
         android:text="TextView"
         android:textColor="@android:color/black"
-        android:textSize="22sp" />
+        android:textSize="18sp" />
 </RelativeLayout>

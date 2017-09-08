@@ -7,13 +7,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
-
-/**
- * Created by apprenti on 06/09/17.
- */
 
 public class listeMonstreAdapter extends ArrayAdapter<listeMonstre> {
 
@@ -34,8 +31,11 @@ public class listeMonstreAdapter extends ArrayAdapter<listeMonstre> {
         TextView nomMonstre = (TextView)convertView.findViewById(R.id.nomMonstre);
         TextView nomElement = (TextView)convertView.findViewById(R.id.nomElement);
 
+        ImageView imageMonstre = (ImageView)convertView.findViewById(R.id.imageMonstre);
+
         nomMonstre.setText(listeM.nomMonstre);
         nomElement.setText(listeM.nomElement);
+        imageMonstre.setImageResource(listeM.imageMonstre);
 
         return convertView;
     }
